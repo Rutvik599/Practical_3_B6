@@ -15,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Login"
+        android:id="@+id/login1"
         android:onClick="login"
         >
     </Button>
@@ -26,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Signup"
+            android:id="@+id/signup1"
             android:onClick="signup"
             >
         </Button>

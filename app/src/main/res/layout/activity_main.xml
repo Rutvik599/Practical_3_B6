@@ -12,7 +12,17 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
-
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:background="#ffffff"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="55dp"
+                android:paddingLeft="30dp"
+                android:onClick="homepage"
+                />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
@@ -121,15 +131,15 @@
                 app:layout_constraintEnd_toEndOf="@+id/signup"
                 android:textSize="18sp"
                 />
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:id="@+id/signup"
                 android:text="SIGN UP"
-                android:background="@null"
                 android:textStyle="bold"
                 android:textColor="#db3d91"
+                android:background="@color/white"
                 app:layout_constraintBaseline_toBaselineOf="@+id/dontaccount"
                 app:layout_constraintStart_toEndOf="@+id/dontaccount"
                 app:layout_constraintEnd_toEndOf="parent"
